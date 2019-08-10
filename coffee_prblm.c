@@ -6,7 +6,7 @@ scanf("%d%d" &x,&p);
 sum=x;
 while(x>0)
 {
-sum=x+(x%p);
+sum=sum+(x%p);
 x=x/p;
 }
 printf("%d",sum);
