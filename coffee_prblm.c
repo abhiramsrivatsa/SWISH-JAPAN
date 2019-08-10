@@ -2,7 +2,7 @@
 main()
 {
 int x,p,i,sum;
-scanf("%d%d" &x,&p);
+scanf("%d%d",&x,&p);
 sum=x;
 while(x>0)
 {
